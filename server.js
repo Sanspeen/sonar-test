@@ -5,6 +5,8 @@ const app = express();
 
 app.use(express.json());
 
+var a = 0
+
 app.get("/", function (req, res) {
   res.send();
 });
